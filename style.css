@@ -26,7 +26,7 @@ nav ul {
     float: left;
     list-style: none;
     overflow: hidden;
-    background: #cdeb8e;
+    
 }
 
 nav ul li {
@@ -48,4 +48,12 @@ footer {
 footer i {
     padding-right: .2em;
     padding-left: .2em;
+}
+
+.picMe {
+    height: 400;
+    width: 266;
+    float:left;
+    padding-right: 1em;
+    padding-bottom: 1em;
 }
