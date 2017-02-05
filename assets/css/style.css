@@ -3,22 +3,12 @@ body {
     font-family: 'Open Sans', sans-serif;
     color: #57676e;
     margin: 0 auto;
-    max-width: 850px;
+    max-width: 960px;
+    word-wrap: break-word;
 }
 
 a {
     text-decoration: none;
-    color: #57676e;
-}
-
-hr {
-    width: 100%;
-    max-height: 0;
-}
-
-nav {
-    width: 100%;
-    margin: 20px 0;
 }
 
 nav ul {
@@ -26,10 +16,10 @@ nav ul {
     float: left;
     list-style: none;
     overflow: hidden;
-    background: #cdeb8e;
 }
 
 nav ul li {
+    display: flex;
     float: left;
     width: 30%;
 }
@@ -39,13 +29,42 @@ nav ul li a {
     width: 100%;
     text-align: center;
     padding: 8px 0;
+    color: #1c2c34;
 }
 
 footer {
+    bottom:0;
     text-align: center;
 }
 
 footer i {
-    padding-right: .2em;
-    padding-left: .2em;
+    padding-right: .32em;
+    padding-left: .32em;
+    color: #57676e;
+}
+
+.picMe {
+    height: 400px;
+    width: 266px;
+    float:left;
+    padding-right: 1em;
+    padding-bottom: 1em;
+}
+
+.footer {
+    position:absolute;
+    height:50px;
+    bottom:0;
+    left:0px;
+    right:0px;
+    margin-bottom:0px;
+    
+}
+
+.icons i {
+   display: grid;    
+   text-align: center;
+   padding-right: .32em;
+   padding-left: .32em;
+   color: #57676e;
 }
